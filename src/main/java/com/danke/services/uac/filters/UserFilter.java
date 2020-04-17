@@ -1,6 +1,6 @@
-package com.danke.uac.services;
+package com.danke.services.uac.filters;
 
-import com.danke.uac.entities.*;
+import com.danke.services.uac.entities.*;
 import lombok.Data;
 import org.springframework.data.jpa.domain.*;
 

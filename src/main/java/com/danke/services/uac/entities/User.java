@@ -1,7 +1,6 @@
-package com.danke.uac.entities;
+package com.danke.services.uac.entities;
 
-import com.danke.uac.libs.*;
-
+import com.danke.services.base.libs.*;
 import lombok.Data;
 
 import javax.persistence.*;

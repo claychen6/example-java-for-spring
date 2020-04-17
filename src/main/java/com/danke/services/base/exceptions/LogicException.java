@@ -1,4 +1,4 @@
-package com.danke.uac.exceptions;
+package com.danke.services.base.exceptions;
 
 import java.util.Map;
 

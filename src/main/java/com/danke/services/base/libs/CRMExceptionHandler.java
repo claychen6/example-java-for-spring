@@ -1,4 +1,4 @@
-package com.danke.uac.libs;
+package com.danke.services.base.libs;
 
 import org.springframework.http.*;
 import org.springframework.http.converter.*;

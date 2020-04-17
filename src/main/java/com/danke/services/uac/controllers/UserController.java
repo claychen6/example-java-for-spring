@@ -1,7 +1,9 @@
-package com.danke.uac.controllers;
+package com.danke.services.uac.controllers;
 
-import com.danke.uac.entities.*;
-import com.danke.uac.services.*;
+import com.danke.services.uac.entities.User;
+import com.danke.services.uac.filters.UserFilter;
+import com.danke.services.uac.services.UserService;
+import com.danke.uac.services.UserServiceImpl;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
 import org.springframework.web.bind.annotation.*;
