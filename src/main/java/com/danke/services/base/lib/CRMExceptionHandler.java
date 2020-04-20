@@ -1,10 +1,9 @@
-package com.danke.services.base.libs;
+package com.danke.services.base.lib;
 
 import org.springframework.http.*;
 import org.springframework.http.converter.*;
-import org.springframework.web.bind.MissingServletRequestParameterException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.*;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.method.annotation.*;
 
 import javax.validation.*;

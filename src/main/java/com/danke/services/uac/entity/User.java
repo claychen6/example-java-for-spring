@@ -1,14 +1,12 @@
-package com.danke.services.uac.entities;
+package com.danke.services.uac.entity;
 
-import com.danke.services.base.libs.*;
-import lombok.Data;
+import com.danke.services.base.lib.*;
+import com.fasterxml.jackson.annotation.*;
+import lombok.*;
 
 import javax.persistence.*;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import javax.validation.constraints.*;
-import java.io.Serializable;
+import java.io.*;
 
 @Data
 @Entity
@@ -33,4 +31,7 @@ public class User extends EntityTimes implements Serializable {
     private int status = 0;
     @Column
     private int isDel = 0;
+    @JsonIgnore
+    @Column
+    private String password;
 }

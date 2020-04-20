@@ -1,6 +1,6 @@
-package com.danke.services.base.exceptions;
+package com.danke.services.base.exception;
 
-import java.util.Map;
+import java.util.*;
 
 public class LogicException extends RuntimeException {
     private int code = 1000000000;

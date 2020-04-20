@@ -1,4 +1,4 @@
-package com.danke.services.base.libs;
+package com.danke.services.base.lib;
 
 import lombok.*;
 

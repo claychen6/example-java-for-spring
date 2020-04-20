@@ -1,4 +1,4 @@
-package com.danke.uac;
+package com.danke;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

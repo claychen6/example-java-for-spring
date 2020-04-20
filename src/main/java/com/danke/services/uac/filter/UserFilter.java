@@ -1,11 +1,11 @@
-package com.danke.services.uac.filters;
+package com.danke.services.uac.filter;
 
-import com.danke.services.uac.entities.*;
-import lombok.Data;
+import com.danke.services.uac.entity.*;
+import lombok.*;
 import org.springframework.data.jpa.domain.*;
 
 import javax.persistence.criteria.*;
-import java.util.List;
+import java.util.*;
 
 @Data
 public class UserFilter implements Specification<User> {

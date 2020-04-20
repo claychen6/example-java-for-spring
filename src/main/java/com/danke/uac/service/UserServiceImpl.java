@@ -1,9 +1,9 @@
-package com.danke.uac.services;
+package com.danke.uac.service;
 
-import com.danke.services.uac.entities.User;
-import com.danke.services.uac.filters.UserFilter;
-import com.danke.services.uac.services.UserService;
-import com.danke.uac.repositories.UserRepository;
+import com.danke.services.uac.entity.User;
+import com.danke.services.uac.filter.UserFilter;
+import com.danke.services.uac.service.UserService;
+import com.danke.uac.dao.UserRepository;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
 import org.springframework.stereotype.*;

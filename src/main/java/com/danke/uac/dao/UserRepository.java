@@ -1,6 +1,6 @@
-package com.danke.uac.repositories;
+package com.danke.uac.dao;
 
-import com.danke.services.uac.entities.User;
+import com.danke.services.uac.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
