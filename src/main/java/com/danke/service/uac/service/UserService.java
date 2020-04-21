@@ -1,7 +1,7 @@
-package com.danke.services.uac.service;
+package com.danke.service.uac.service;
 
-import com.danke.services.uac.entity.*;
-import com.danke.services.uac.filter.*;
+import com.danke.service.uac.entity.*;
+import com.danke.service.uac.filter.*;
 import org.springframework.data.domain.*;
 
 import java.util.*;

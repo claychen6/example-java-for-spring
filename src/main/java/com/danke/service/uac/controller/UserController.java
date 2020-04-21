@@ -1,8 +1,8 @@
-package com.danke.services.uac.controller;
+package com.danke.service.uac.controller;
 
-import com.danke.services.uac.entity.*;
-import com.danke.services.uac.filter.*;
-import com.danke.services.uac.service.*;
+import com.danke.service.uac.entity.*;
+import com.danke.service.uac.filter.*;
+import com.danke.service.uac.service.*;
 import com.danke.uac.service.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
@@ -17,7 +17,7 @@ public class UserController {
     private UserService userService;
 
     @Autowired
-    public UserController(UserServiceImpl userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 

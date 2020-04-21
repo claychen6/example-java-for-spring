@@ -1,4 +1,4 @@
-package com.danke.services.base.lib;
+package com.danke.service.base.lib;
 
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.core.*;

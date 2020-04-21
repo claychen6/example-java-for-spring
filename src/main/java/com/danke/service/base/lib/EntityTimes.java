@@ -1,4 +1,4 @@
-package com.danke.services.base.lib;
+package com.danke.service.base.lib;
 
 import lombok.*;
 import org.springframework.data.annotation.*;

@@ -1,6 +1,6 @@
-package com.danke.services.uac.entity;
+package com.danke.service.uac.entity;
 
-import com.danke.services.base.lib.*;
+import com.danke.service.base.lib.*;
 import com.fasterxml.jackson.annotation.*;
 import lombok.*;
 

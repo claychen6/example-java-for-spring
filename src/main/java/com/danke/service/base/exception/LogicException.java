@@ -1,4 +1,4 @@
-package com.danke.services.base.exception;
+package com.danke.service.base.exception;
 
 import java.util.*;
 
