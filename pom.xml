@@ -9,10 +9,18 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.danke</groupId>
-    <artifactId>uac</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>example-java-for-spring</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <name>uac</name>
     <description>用户中心</description>
+
+    <modules>
+        <module>common</module>
+        <module>contract</module>
+        <module>service</module>
+        <module>client</module>
+        <module>app</module>
+    </modules>
 
     <properties>
         <java.version>11</java.version>

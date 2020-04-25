@@ -3,21 +3,24 @@ package com.danke.common.app;
 import lombok.*;
 
 @Data
-public final class CRMResponse<T> {
+/**
+ * 接口返回规范
+ */
+public final class ResponseData<T> {
     private T data = null;
     private String message = "请求成功";
     private Integer code = 0;
 
-    public CRMResponse(T data) {
+    public ResponseData(T data) {
         this.data = data;
     }
 
-    public CRMResponse(T data, String message) {
+    public ResponseData(T data, String message) {
         this.data = data;
         this.message = message;
     }
 
-    public CRMResponse(T data, String message, Integer code) {
+    public ResponseData(T data, String message, Integer code) {
         this.data = data;
         this.code = code;
         this.message = message;
