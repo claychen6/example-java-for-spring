@@ -70,3 +70,21 @@ update_time TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP on UPDATE CURRENT_TIMES
 COMMENT '更新时间'
 )
 ```
+
+
+### 工程模块化
+
+#### common
+- EntityTimes 问题
+- ExceptionHandler 问题
+- ResponseData 问题
+
+#### contract
+- Entity 组合问题
+- Filter 筛选问题
+- Page 继承于JPA
+
+#### service/client
+- Controller 如果自动载入
+- UserFilter 转 JpaCondition 问题
+- Common 相关问题
