@@ -1,4 +1,4 @@
-package com.danke.service.base.lib;
+package com.danke.common.app;
 
 import lombok.*;
 
@@ -6,7 +6,7 @@ import lombok.*;
 public final class CRMResponse<T> {
     private T data = null;
     private String message = "请求成功";
-    private Integer code = 1;
+    private Integer code = 0;
 
     public CRMResponse(T data) {
         this.data = data;

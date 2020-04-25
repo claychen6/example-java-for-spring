@@ -1,12 +1,14 @@
-package com.danke.service.uac.entity;
+package com.danke.contract.uac.entity;
 
-import com.danke.service.base.lib.*;
+import com.danke.common.libs.*;
 import com.fasterxml.jackson.annotation.*;
 import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
 import java.io.*;
+
+// TODO 去掉 JPA 依赖
 
 @Data
 @Entity

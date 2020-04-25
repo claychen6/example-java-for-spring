@@ -1,4 +1,4 @@
-package com.danke.service.base.lib;
+package com.danke.common.libs;
 
 import lombok.*;
 import org.springframework.data.annotation.*;
@@ -9,8 +9,6 @@ import java.util.*;
 
 @Setter
 @Getter
-@MappedSuperclass
-@EntityListeners(AuditingEntityListener.class)
 public abstract class EntityTimes {
 
     @CreatedDate

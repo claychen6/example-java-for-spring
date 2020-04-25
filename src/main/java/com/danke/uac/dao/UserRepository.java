@@ -1,6 +1,6 @@
 package com.danke.uac.dao;
 
-import com.danke.service.uac.entity.User;
+import com.danke.contract.uac.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 

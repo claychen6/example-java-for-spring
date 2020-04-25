@@ -1,4 +1,4 @@
-package com.danke.service.base.lib;
+package com.danke.common.app;
 
 import org.springframework.http.*;
 import org.springframework.http.converter.*;

@@ -1,12 +1,12 @@
-package com.danke.service.uac.service;
+package com.danke.contract.uac.service;
 
-import com.danke.service.uac.entity.*;
-import com.danke.service.uac.filter.*;
+import com.danke.contract.uac.entity.*;
+import com.danke.contract.uac.filter.*;
 import org.springframework.data.domain.*;
 
 import java.util.*;
 
-public interface UserService {
+public interface UserInterface {
     User findUser(Long id);
 
     List<User> findUsers(List<Long> ids);

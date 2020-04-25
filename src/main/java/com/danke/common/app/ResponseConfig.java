@@ -1,4 +1,4 @@
-package com.danke.service.base.lib;
+package com.danke.common.app;
 
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.core.*;
@@ -16,7 +16,7 @@ import java.util.*;
 @Configurable
 public class ResponseConfig {
 
-    @RestControllerAdvice(value = "com.danke.uac")
+    @RestControllerAdvice(value = "com.danke")
     static class CRMResponseAdvice implements ResponseBodyAdvice<Object> {
         @Override
         public boolean supports(MethodParameter methodParameter, Class<? extends HttpMessageConverter<?>> aClass) {
@@ -25,6 +25,7 @@ public class ResponseConfig {
 
         @Override
         public Object beforeBodyWrite(Object body, MethodParameter methodParameter, MediaType mediaType, Class<? extends HttpMessageConverter<?>> aClass, ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
+
             if (body instanceof CRMResponse) {
                 return body;
             }

@@ -1,7 +1,10 @@
-package com.danke.service.base.exception;
+package com.danke.common.exception;
 
 import java.util.*;
 
+/**
+ * 业务异常
+ */
 public class LogicException extends RuntimeException {
     private int code = 1000000000;
 

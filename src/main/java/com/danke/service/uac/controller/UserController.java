@@ -1,9 +1,8 @@
 package com.danke.service.uac.controller;
 
-import com.danke.service.uac.entity.*;
-import com.danke.service.uac.filter.*;
-import com.danke.service.uac.service.*;
-import com.danke.uac.service.*;
+import com.danke.contract.uac.entity.*;
+import com.danke.contract.uac.filter.*;
+import com.danke.contract.uac.service.*;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
 import org.springframework.web.bind.annotation.*;
@@ -14,10 +13,10 @@ import java.util.*;
 @RequestMapping("/user")
 public class UserController {
 
-    private UserService userService;
+    private UserInterface userService;
 
     @Autowired
-    public UserController(UserService userService) {
+    public UserController(UserInterface userService) {
         this.userService = userService;
     }
 

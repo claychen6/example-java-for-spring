@@ -1,11 +1,13 @@
-package com.danke.service.uac.filter;
+package com.danke.contract.uac.filter;
 
-import com.danke.service.uac.entity.*;
+import com.danke.contract.uac.entity.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.*;
 
 import javax.persistence.criteria.*;
 import java.util.*;
+
+// TODO 去掉 JPA 依赖
 
 @Data
 public class UserFilter implements Specification<User> {

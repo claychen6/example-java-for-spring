@@ -1,8 +1,8 @@
 package com.danke.uac.service;
 
-import com.danke.service.uac.entity.User;
-import com.danke.service.uac.filter.UserFilter;
-import com.danke.service.uac.service.UserService;
+import com.danke.contract.uac.entity.User;
+import com.danke.contract.uac.filter.UserFilter;
+import com.danke.contract.uac.service.UserInterface;
 import com.danke.uac.dao.UserRepository;
 import org.springframework.beans.factory.annotation.*;
 import org.springframework.data.domain.*;
@@ -13,12 +13,12 @@ import java.util.*;
 
 @Service
 @Transactional
-public class UserServiceImpl implements UserService {
+public class UserService implements UserInterface {
 
     private UserRepository userRepository;
 
     @Autowired
-    public UserServiceImpl(UserRepository userRepository) {
+    public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
