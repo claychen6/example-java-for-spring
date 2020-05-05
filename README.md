@@ -1,22 +1,3 @@
-# Getting Started
-
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/maven-plugin/)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/htmlsingle/#boot-features-jpa-and-spring-data)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
-
-### Guides
-The following guides illustrate how to use some features concretely:
-
-* [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-
 ### TODO
 - 开发模式 DONE
 - 异常捕获 DONE
@@ -48,7 +29,7 @@ The following guides illustrate how to use some features concretely:
 - Lombok 使用: https://zhuanlan.zhihu.com/p/32779910
 - Validation: https://www.cnkirito.moe/spring-validation/
 - Validation: https://www.cnblogs.com/mr-yang-localhost/p/7812038.html
-- 管理查询: https://www.cnblogs.com/hhhshct/p/9492741.html
+- 关联查询: https://www.cnblogs.com/hhhshct/p/9492741.html
 - 时间更新: https://blog.csdn.net/vili_sky/article/details/84928373
 
 #### 日志规范
@@ -75,16 +56,9 @@ COMMENT '更新时间'
 ### 工程模块化
 
 #### common
-- EntityTimes 问题
 - ExceptionHandler 问题
-- ResponseData 问题
-
-#### contract
-- Entity 组合问题
-- Filter 筛选问题
-- Page 继承于JPA
+- Response 问题
 
 #### service/client
 - Controller 如果自动载入
-- UserFilter 转 JpaCondition 问题
-- Common 相关问题
+- Entity 问题 Model 问题
