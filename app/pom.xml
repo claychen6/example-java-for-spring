@@ -10,8 +10,8 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.danke.uac</groupId>
-    <artifactId>app</artifactId>
+    <groupId>com.danke.app</groupId>
+    <artifactId>app-uac</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -38,13 +38,13 @@
         </dependency>
 
         <dependency>
-            <groupId>com.danke.uac</groupId>
-            <artifactId>contract</artifactId>
+            <groupId>com.danke.contract</groupId>
+            <artifactId>contract-uac</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.danke.uac</groupId>
-            <artifactId>service</artifactId>
+            <groupId>com.danke.service</groupId>
+            <artifactId>service-uac</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
