@@ -1,15 +1,18 @@
-### TODO
-- 开发模式 DONE
-- 异常捕获 DONE
-- 请求响应 DONE
-- 分页查询 DONE
-- 软删，创建时间/更新时间 DONE 
-- 数据校验 DONE
-- 联合查询 DONE
-- 修改记录 DONE
-- 日志规范 DONE
-- 性能监控 DONE
+# JavaSpring 模板
 
+## 第一阶段未完成
+- Response 代理
+- Client 实现
+
+## 第二阶段未完成
+- 日志规范
+- 入参验证
+- 数据转换
+
+## 第三阶段未完成
+- 支持多种传输方式
+
+## Java Web 基础内容
 ### 需要巩固
 - Spring MVC DONE
 - Spring JPA 
